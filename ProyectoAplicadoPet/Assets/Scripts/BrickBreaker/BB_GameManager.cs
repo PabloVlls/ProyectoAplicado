@@ -26,15 +26,18 @@ public class BB_GameManager : MonoBehaviour
 
     public void Start()
     {
-        NewGame();
+       // NewGame();
     }
 
-    private void NewGame()
+
+    public void NewGame()
     {
         this.score = 0;
         this.lives = 3;
         LoadLevel(1);
     }
+
+    
 
 
     private void LoadLevel(int level)
@@ -96,7 +99,7 @@ public class BB_GameManager : MonoBehaviour
         if (ClearedBoard())
         {
             LoadLevel(this.level + 1);
-            if (lives >= 0 || lives <= 5)
+            if (lives >= 0 || lives <= 4)
             {
                 lives++;
             }

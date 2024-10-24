@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrickBreaker/Level 2.unity
     guid: fa73bf2827a372b4897721a19a8a8781
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/Level 3.unity
+    guid: b563134bc1c579f46a070eacaa11466c
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/BB_GameOver.unity
+    guid: d26d7af04218e614f863d827a1fc0190
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/BB_WinScreen.unity
+    guid: bb9b49eba8eae2049952cd19f247ee7b
   m_configObjects: {}
