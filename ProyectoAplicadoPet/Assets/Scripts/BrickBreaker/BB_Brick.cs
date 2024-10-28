@@ -55,4 +55,6 @@ public class BB_Brick : MonoBehaviour
             Hit();
         }
     }
+    
+    
 }

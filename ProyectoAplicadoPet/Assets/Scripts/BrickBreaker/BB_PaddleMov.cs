@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using Unity.UI;
 
 public class BB_PaddleMov : MonoBehaviour
 {
@@ -9,11 +11,15 @@ public class BB_PaddleMov : MonoBehaviour
         get; 
         private set; 
     }
-    public Vector2 direction { get; private set; }
+
+    public Vector2 direction;
 
     public float speed = 30f;
 
     public float maxBounceAngle = 75f;
+
+    private bool isMovingLeft = false;
+    private bool isMovingRight = false;
 
     private void Awake()
     {
@@ -22,19 +28,42 @@ public class BB_PaddleMov : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.A))
+        if (isMovingLeft)
         {
-            this.direction = Vector2.left; 
+            direction = Vector2.left;
         }
-        else if(Input.GetKey(KeyCode.D))
+        else if (isMovingRight)
         {
             direction = Vector2.right;
         }
         else
         {
-            this.direction = Vector2.zero;
+            direction = Vector2.zero;
         }
+        
+
     }
+
+    public void MoveLeft()
+    {
+        isMovingLeft = true;
+    }
+
+    public void StopMoveLeft()
+    {
+        isMovingLeft = false;
+    }
+
+    public void MoveRight()
+    {
+        isMovingRight = true;
+    }
+
+    public void StopMoveRight()
+    {
+        isMovingRight = false;
+    }
+
 
     private void FixedUpdate()
     {
@@ -42,6 +71,8 @@ public class BB_PaddleMov : MonoBehaviour
         {
             this.rigidbody.AddForce (this.direction * this.speed);
         }
+        
+
     }
 
     public void ResetPaddle()

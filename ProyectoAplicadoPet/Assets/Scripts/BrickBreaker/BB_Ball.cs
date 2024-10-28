@@ -39,4 +39,14 @@ public class BB_Ball : MonoBehaviour
 
         this.rigidbody.AddForce(force/*.normalized*/ * this.speed);
     }
+    
+    public void SetFastTime()
+    {
+        Time.timeScale = 2f; // Cambia a la velocidad deseada, 2 es el doble de rápido.
+    }
+
+    public void SetNormalTime()
+    {
+        Time.timeScale = 1f; // Regresa la velocidad del tiempo a la normalidad.
+    }
 }
