@@ -9,4 +9,9 @@ public class BB_SceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("BB_Main");
     }
+
+    public void BackGame()
+    {
+        SceneManager.LoadScene("JuegoCompleto");
+    }
 }

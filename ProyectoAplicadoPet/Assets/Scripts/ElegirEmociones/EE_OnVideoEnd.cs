@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,15 @@ public class EE_OnVideoEnd : MonoBehaviour
 
     public GameObject videosCanva;
 
+    public GameObject panelAlegria;
+
+ 
+
+    private void Awake()
+    {
+        panelAlegria.SetActive(false);
+    }
+
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
@@ -23,5 +33,8 @@ public class EE_OnVideoEnd : MonoBehaviour
     {
         //SceneManager.LoadScene("BB_Main");
         videosCanva.gameObject.SetActive(false);// Carga la escena especificada
+        panelAlegria.SetActive(true);
     }
+
+
 }

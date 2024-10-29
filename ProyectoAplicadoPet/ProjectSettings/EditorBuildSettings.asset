@@ -11,4 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Habitacion.unity
     guid: b4ad835864b40474abcf3e399de750ff
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/BB_Main.unity
+    guid: 4ab2f26903a3e644c8041c5fc33f0848
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/Level 1.unity
+    guid: a90f9f1b79a6642468094cc63491558d
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/Level 2.unity
+    guid: fa73bf2827a372b4897721a19a8a8781
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/Level 3.unity
+    guid: b563134bc1c579f46a070eacaa11466c
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/BB_GameOver.unity
+    guid: d26d7af04218e614f863d827a1fc0190
+  - enabled: 1
+    path: Assets/Scenes/BrickBreaker/BB_WinScreen.unity
+    guid: bb9b49eba8eae2049952cd19f247ee7b
   m_configObjects: {}
