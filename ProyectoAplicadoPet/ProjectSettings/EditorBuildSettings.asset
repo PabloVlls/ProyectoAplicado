@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/ElegirEmociones/EE_Inicio.unity
+    guid: fb215f48a9da99a4a8708f98048dcd43
+  - enabled: 1
     path: Assets/Scenes/BrickBreaker/BB_Main.unity
     guid: 4ab2f26903a3e644c8041c5fc33f0848
   - enabled: 1
