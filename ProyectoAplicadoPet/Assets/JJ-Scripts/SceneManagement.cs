@@ -7,6 +7,6 @@ public class SceneManagement : MonoBehaviour
 {
     public void SceneTransition()
     {
-        SceneManager.LoadScene("JJ_Game");
+        SceneManager.LoadScene("Habitacion");
     }
 }
