@@ -5,11 +5,8 @@ using UnityEngine;
 
 public class BB_Ball : MonoBehaviour
 {
-    public new Rigidbody2D rigidbody
-    {
-        get;
-        private set;
-    }
+    public new Rigidbody2D rigidbody;
+
 
     public float speed = 500f;
 

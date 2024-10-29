@@ -13,10 +13,10 @@ public class BB_GameManager : MonoBehaviour
     public int maxScore = 0;
     public int lives = 3;
 
-    public BB_Ball ball {  get; private set; }
-    public BB_PaddleMov paddle { get; private set; }
+    public BB_Ball ball;
+    public BB_PaddleMov paddle;
 
-    public BB_Brick[] bricks { get; private set; }
+    public BB_Brick[] bricks;
     
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI maxScoreText;

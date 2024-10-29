@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using Unity.UI;
+using UnityEngine.UI;
 
 public class BB_PaddleMov : MonoBehaviour
 {
-    public new Rigidbody2D rigidbody 
-    { 
-        get; 
-        private set; 
-    }
+    public new Rigidbody2D rigidbody;
+
 
     public Vector2 direction;
 
