@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/JJ.unity
-    guid: da83291b2cd3e7d49b676c35dfd6ed71
-  - enabled: 1
-    path: Assets/Scenes/Habitacion.unity
-    guid: b4ad835864b40474abcf3e399de750ff
+    path: Assets/Scenes/JuegoCompleto.unity
+    guid: 129ef60cdd915184e951f1655e6416d3
   - enabled: 1
     path: Assets/Scenes/BrickBreaker/BB_Main.unity
     guid: 4ab2f26903a3e644c8041c5fc33f0848

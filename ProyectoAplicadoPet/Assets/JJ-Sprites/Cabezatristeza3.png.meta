@@ -139,9 +139,9 @@ TextureImporter:
       name: Cabezatristeza3_0
       rect:
         serializedVersion: 2
-        x: 363
+        x: 359
         y: 1302
-        width: 299
+        width: 312
         height: 447
       alignment: 9
       pivot: {x: 0.5, y: 0}
